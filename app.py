@@ -26,6 +26,7 @@ st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 all_solo = load_data()
 pattern = ['jennie', 'jisoo', 'rose', 'lisa', 'yg']
 
+st.video('https://youtu.be/ioNng23DkIM')
 st.markdown(
     "Between June 26th and July 20th, I managed to collect more than **a million** comments from BlackPink's latest  "
     "video, \"How You Like That\".")
