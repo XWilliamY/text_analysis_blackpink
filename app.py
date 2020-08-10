@@ -102,7 +102,7 @@ topic_of_interest = st.text_input("Your topic(s) of interest: \
 
 sample_and_plot_topic_for_member(all_solo, topic_of_interest, member_topic_option)
 
-get_top_sentences(all_solo, topic_of_interest, member_topic_option)
+# get_top_sentences(all_solo, topic_of_interest, member_topic_option)
 
 st.markdown("## **Closing Remarks**")
 st.markdown("Remember that people can be inconsistent when it comes to sentiment analysis, and machine approaches  "
