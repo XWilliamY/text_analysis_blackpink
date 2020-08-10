@@ -107,7 +107,8 @@ def query_comments(df, topic, member, text_length=1):
 
 @st.cache(allow_output_mutation=True, suppress_st_warning=True)
 def load_nlp():
-    nlp = spacy.load('en_core_web_md')
+    import en_core_web_md
+    nlp = en_core_web_md.load()
     return nlp
 
 
