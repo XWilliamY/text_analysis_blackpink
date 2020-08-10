@@ -14,7 +14,7 @@ def load_data():
     the member columns
     :return: a pandas dataframe
     """
-    return pd.read_csv('all_pos_neg_better_targetting_members.csv', lineterminator='\n',
+    return pd.read_csv('all_pos_neg.csv', lineterminator='\n',
                        parse_dates=['Updated At'],
                        date_parser=lambda x: pd.to_datetime(x),
                        index_col='Updated At')
