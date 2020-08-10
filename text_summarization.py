@@ -10,7 +10,6 @@ from sklearn.decomposition import LatentDirichletAllocation, NMF
 @st.cache
 def get_ngrams(text, n=1, stop_words=None):
     """
-
     :param text: iterable of strings
     :param n:    number of words for n-gram
     :param stop_words: stop words to remove, if any
